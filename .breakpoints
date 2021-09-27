@@ -1,0 +1,42 @@
+{
+  "files": {
+    ".replit": [
+      {
+        "id": "21e04f19-f071-4878-924c-6a4bc5d18ffa",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ],
+    "src/FilesTable.jsx": [
+      {
+        "id": "136f53ad-26e3-4575-a748-eb37ade5cfae",
+        "line": 31,
+        "version": 10,
+        "index": 968
+      },
+      {
+        "id": "2dec67cb-f544-4f13-8eb9-9f2bffbc647a",
+        "line": 64,
+        "version": 11,
+        "index": 1659
+      }
+    ],
+    "src/FilesViewer/Files.jsx": [
+      {
+        "id": "03112731-e9aa-4404-9d14-e7e70d39fba0",
+        "line": 45,
+        "version": 1123,
+        "index": 1547
+      }
+    ],
+    "src/Home/Home.jsx": [
+      {
+        "id": "fcc8596a-b20f-4b99-ac5e-faf130318fcb",
+        "line": 10,
+        "version": 154,
+        "index": 259
+      }
+    ]
+  }
+}
