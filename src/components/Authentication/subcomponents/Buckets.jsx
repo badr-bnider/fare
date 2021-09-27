@@ -54,7 +54,9 @@ function Buckets() {
                   <ListItemAvatar>
                     <StorageIcon color="secondary" />
                   </ListItemAvatar>
-                  <Typography color="secondary" className={classes.listItemText}><b>{b[0]}</b></Typography>
+                  <Typography color="secondary" className={classes.listItemText}>
+                    <b>{b[0].toUpperCase()}</b>
+                  </Typography>
                   <IconButton variant="contained" onClick={auth} className={classes.auth}>
                     <LockOpenIcon size="medium" color="primary" />
                   </IconButton>

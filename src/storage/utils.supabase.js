@@ -87,7 +87,7 @@ async function signUp(bucket, pwd) {
 }
 
 function getBucketName() {
-  return supabase.auth.user().email.split("@")[0]
+  return supabase.auth.user().email.split("@")[0].toUpperCase()
 }
 
 async function signOut() {

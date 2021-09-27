@@ -7,6 +7,7 @@ import '../../assets/styles/styles.css';
 import AuthenticationCard from './subcomponents/AuthenticationCard'
 import Buckets from './subcomponents/Buckets';
 import { Box, Typography } from '@material-ui/core';
+import { Link } from '@material-ui/core';
 
 function Authentication() {
   const classes = useStyles();
@@ -15,7 +16,7 @@ function Authentication() {
       <Box className={classes.box}>
         <AuthenticationCard />
         <Buckets />
-        <Typography color="secondary" className={classes.footer}>Created by <b>Badr Bnider</b></Typography>
+        <Typography color="secondary" className={classes.footer}>Created by <b><Link href="https://badrbnider.tk">Badr Bnider</Link></b></Typography>
       </Box>
     </div>
   );
