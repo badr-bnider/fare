@@ -21,7 +21,7 @@ import { signIn } from '../../../storage/utils.supabase.js';
 
 const getBucketList = () => {
   if (localStorage.getItem("buckets") == undefined) {
-    return {}
+    return []
   }
   return Object.entries(JSON.parse(localStorage.getItem("buckets")))
 }

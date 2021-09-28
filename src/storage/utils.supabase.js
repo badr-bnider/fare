@@ -91,7 +91,7 @@ function getBucketName() {
 }
 
 async function signOut() {
-  removeBucket(getUsername())
+  removeBucket(getBucketName())
   window.location.assign("/auth")
   const { error } = await supabase.auth.signOut()
 }
