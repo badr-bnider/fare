@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "git push origin"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
