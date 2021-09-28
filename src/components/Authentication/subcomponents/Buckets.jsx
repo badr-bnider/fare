@@ -19,7 +19,12 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import { removeBucket } from '../../../storage/utils.localStorage.js';
 import { signIn } from '../../../storage/utils.supabase.js';
 
-const getBucketList = () => Object.entries(JSON.parse(localStorage.getItem("buckets")))
+const getBucketList = () => {
+  if (localStorage.getItem("buckets") == undefined) {
+    return {}
+  }
+  return Object.entries(JSON.parse(localStorage.getItem("buckets")))
+}
 
 function Buckets() {
   const classes = useStyles();
