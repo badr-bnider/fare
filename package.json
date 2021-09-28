@@ -1,11 +1,11 @@
 {
   "name": "fare",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy": "git push origin"
+    "deploy": "deploy.cmd"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
