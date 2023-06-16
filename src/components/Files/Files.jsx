@@ -42,7 +42,6 @@ class Files extends React.Component {
   }
 
   componentDidMount() {
-    this.refresh = setInterval(() => {
       fetchList().then(data => {
         this.setState(
           Object.assign(
@@ -56,7 +55,23 @@ class Files extends React.Component {
           )
         )
       })
-    }, 500)
+    }
+
+
+  componentWillUpdate(){
+    fetchList().then(data=>
+      this.setState(
+        Object.assign(
+          {},
+          this.state,
+          {
+            files: data
+              .filter(file => search(file.name, this.state.search))
+              .sort((a, b) => sortBy(a, b, this.state.sort))
+          }
+        )
+      )
+    )
   }
 
   componentWillUnmount() {
