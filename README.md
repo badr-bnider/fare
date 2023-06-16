@@ -1,7 +1,7 @@
 # Fare
 A file sharing platform that let you store your files and retrieve them easily. Just create a bucket choose to save the credentials or not and that's it you can upload your files securely and easily. Fare was dedicated for collaborative work to simplify the way of sharing files between teams and colleagues.
 
-## Link: https://fare.badrbnider.tk.
+## Link: https://fare.vercel.app.
 
 ## Team:
 Badr Bnider

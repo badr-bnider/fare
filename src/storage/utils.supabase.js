@@ -54,7 +54,7 @@ async function uploadFile(e) {
     data = await supabase
       .storage
       .from('files')
-      .upload(fileName, { cacheControl: '0', upsert: true })
+      .upload(fileName, files[i],{ cacheControl: '3600', upsert: true })
   }
   document.getElementById('uploadInput').value = null;
   return data;
